@@ -30,12 +30,13 @@
     </div>
   </div>
 </div>
-<div class="container" >
+
   <div class="nosdimsum">
-    <div class="w3-content w3-section" style="max-width:500px">
-      <img class="mySlides" src="<%= image_path 'triathlon.jpg' %>" style="width:100%">
-      <img class="mySlides" src="<%= image_path 'sun-cocktail.jpg' %>" style="width:100%">
-      <img class="mySlides" src="<%= image_path 'logo.png' %>" style="width:100%">
+    <div class="w3-content w3-section">
+      <img class="mySlides" src="<%= image_path '1.jpg' %>" style="width:100%">
+      <img class="mySlides" src="<%= image_path '2.jpg' %>" style="width:100%">
+      <img class="mySlides" src="<%= image_path '3.jpg' %>" style="width:100%">
+      <img class="mySlides" src="<%= image_path '4.jpg' %>" style="width:100%">
     </div>
     <script>
       var myIndex = 0;
@@ -54,7 +55,14 @@
       }
     </script>
   </div>
-</div>
+  <div class="form">
+    <form action="https://formspree.io/come.mlr@mail.com"
+          method="POST">
+        <input type="text" name="name">
+        <input type="email" name="_replyto">
+        <input type="submit" value="Send">
+    </form>
+  </div>
 <div class="footer">
   <div class="footer-links">
     <a href="#"><i class="fa fa-github"></i></a>
@@ -63,6 +71,8 @@
     <a href="#"><i class="fa fa-twitter"></i></a>
     <a href="#"><i class="fa fa-linkedin"></i></a>
   </div>
+
+
   <div class="footer-copyright">
     <span> Mentions légales </span>
     <br>
